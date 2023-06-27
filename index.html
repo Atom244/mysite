@@ -33,8 +33,28 @@
         margin-bottom: 0.8em;
       }
     </style>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="load.js"></script>
+    <script class="wow.min.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <style>
+      .wow {
+        overflow: hidden;
+      }
+    </style>
   </head>
   <body>
+    <div class="preloader">
+      <div class="load">
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+      </div>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand p-0" href="/">
@@ -54,10 +74,12 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Главная</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="images.html">Just ai cat images</a>
+              <a class="nav-link" href="images.html">Телеграм-боты</a>
             </li>
           </ul>
         </div>
@@ -68,13 +90,13 @@
         <div class="col-lg-6 col-md-8 mx-auto">
           <img class="rounded-img" src="cat.jpg" alt="Atom244" />
           <h1 class="fw-light">Atom244</h1>
-          <p class="lead text-muted">This is my first WebSite</p>
+          <p class="lead text-muted">Вы перешли на сайт разработчика</p>
           <a
             href="https://github.com/Atom244"
             target="_blank"
             class="btn btn-primary"
           >
-            My GitHub profile
+            Мой GitHub профиль
           </a>
         </div>
       </div>
