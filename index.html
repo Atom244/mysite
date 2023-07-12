@@ -33,7 +33,7 @@
         margin-bottom: 0.8em;
       }
     </style>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" id="theme-stylesheet" href="styles.css" />
     <script src="load.js"></script>
     <script class="wow.min.js"></script>
     <script src="wow.min.js"></script>
@@ -45,6 +45,13 @@
         overflow: hidden;
       }
     </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script>
+      src = "script.js";
+    </script>
   </head>
   <body>
     <div class="preloader">
@@ -81,16 +88,36 @@
             <li class="nav-item">
               <a class="nav-link" href="images.html">Телеграм-боты</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tiktok.html">TikTok</a>
+            </li>
+            <li class="nav-item">
+              <button
+                type="button"
+                class="btn btn-dark"
+                style="width: auto; height: 37px"
+                id="theme-toggle"
+              >
+                <span class="material-symbols-outlined" id="myspan">
+                  dark_mode
+                </span>
+              </button>
+              <script src="script.js"></script>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
+
     <div class="container text-center my-5">
       <div class="row">
-        <div class="col-lg-6 col-md-8 mx-auto">
+        <div class="col-lg-6 col-md-8 mx-auto" id="info">
           <img class="rounded-img" src="cat.jpg" alt="Atom244" />
-          <h1 class="fw-light">Atom244</h1>
-          <p class="lead text-muted">Вы перешли на сайт разработчика</p>
+          <h1 class="fw-light" id="name">Atom244</h1>
+          <p class="fw-light" style="font-size: 20px" id="dev">
+            Вы перешли на сайт разработчика
+          </p>
+
           <a
             href="https://github.com/Atom244"
             target="_blank"

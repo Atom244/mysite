@@ -8,15 +8,17 @@
 }
 
 body {
-  background: repeating-linear-gradient(45deg, #ffffffdc, #e8e8e8c4 10%);
+  background-color: #000000;
+  background: repeating-linear-gradient(45deg, #25f4ed, #fe2c56 25%);
   background-size: 100px 100px;
-  animation: move-it 2s linear infinite;
+  animation: move-it 3s linear infinite;
 }
 
 body.dark-theme {
-  background: repeating-linear-gradient(45deg, #464646dc, #0a0a0ac4 10%);
+  background-color: #000000;
+  background: repeating-linear-gradient(45deg, #274443, #4b2c32 25%);
   background-size: 100px 100px;
-  animation: move-it 2s linear infinite;
+  animation: move-it 3s linear infinite;
 }
 
 top {
@@ -112,4 +114,9 @@ top {
 }
 #theme-toggle.dark-theme:hover {
   filter: drop-shadow(0 0 20px #cae074);
+}
+
+#btntik {
+  background-color: #fe2c56;
+  border-color: #000000;
 }
